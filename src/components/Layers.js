@@ -19,7 +19,7 @@ function Layers() {
     {/* Hero */}
     <li className="layer" data-depth="0.20">
       <div className="title">
-        <h2>Gebriel Motors</h2>
+        <h2>Stay tuned!</h2>
         <span className="line" />
       </div>
     </li>
