@@ -45,8 +45,8 @@ body {
 }
 
 section { overflow-x: hidden; }
-::selection { background: #161a1b; color: #fff; }
-::-moz-selection { background: #161a1b; color: #fff; }
+::selection { background: #e2dfdf; color: #fff; }
+::-moz-selection { background: #e2dfdf; color: #fff; }
 
 
 /* =Typography
@@ -62,7 +62,7 @@ h1 {
 	font-weight: 800;
 	line-height: 80px;
 	letter-spacing: -0.08em;
-	color: #161a1b; 
+	color: #e2dfdf; 
 }
 
 h2 {
@@ -71,7 +71,7 @@ h2 {
 	line-height: 1em;
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
-	color: #161a1b;
+	color: #e2dfdf;
 }
 
 #countdown div span {
@@ -94,6 +94,10 @@ h2 {
 	margin-bottom: 0px;
 }
 
+.sub-title
+{
+	color: white !important;
+}
 
 /* =Content Styles
 -------------------------------------------------------------- */
@@ -121,6 +125,8 @@ h2 {
 .scene {
   position: relative;
   overflow-x: hidden;
+  background: url(../images/bg1.png) no-repeat;
+  background-size: cover;
 }
 
 .layer { position: absolute; }
@@ -140,7 +146,7 @@ h2 {
 
 /* Background */
 .background {
-  background: url(../images/background.jpg) no-repeat 50% 100%;
+  /* background: url(../images/bg.png) no-repeat 5% 5%; */
   bottom: -20px;
   background-size: cover;
   position: absolute;
@@ -223,7 +229,7 @@ h2 {
 
 .contact a.mail {
 	text-decoration: none;
-	color: #161a1b;
+	color: #e2dfdf;
 	padding-bottom: 8px;
 	font-size: 15px !important;
 }
@@ -1006,7 +1012,7 @@ h2 {
 	line-height: 1em;
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
-	color: #161a1b;
+	color: #e2dfdf;
 	background: transparent;
 	border: 1px solid rgb(23,26,28);
 	border: 1px solid rgba(23,26,28,.3);

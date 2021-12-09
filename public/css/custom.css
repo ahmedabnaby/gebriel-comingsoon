@@ -2,5 +2,162 @@
 {
     position: absolute;
     top: 100vh;
-    left: 30%;
+    left: 20%;
+    color: white;
+}
+.card
+{
+    background-color: #1010109d !important;
+}
+.popupS-layer
+{
+    background-color: #101010 !important;
+    padding: 15px;
+    border-radius: 15px;
+}
+.popupS-resetFocus
+{
+    display: none;
+}
+.popupS-close
+{
+    padding-right: 25px;
+}
+.popupS-layer div
+{
+    color: white !important;
+    font-size: 35px
+}
+
+input
+{
+    border: 1px solid rgba(255, 255, 255, 0.178) !important;
+    background-color: transparent !important;
+}
+select
+{
+    border: 1px solid rgba(255, 255, 255, 0.178) !important;
+    background-color: transparent !important;
+}
+.form-control
+{
+    color: rgba(255, 255, 255, 0.356) !important;
+}
+
+/*------------------------------------------------------*/
+/* BUTTONS */
+/*------------------------------------------------------*/
+.btn,
+input[type="submit"]{
+	cursor: pointer;
+    border-radius: 0px;
+    text-decoration: none;
+    padding: 12px 18px;
+    font-size: 12px;
+    line-height: 19px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 600;
+    -webkit-transition: all .4s ease-in-out;
+       -moz-transition: all .4s ease-in-out;
+        -ms-transition: all .4s ease-in-out;
+         -o-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+}
+
+.btn-mid {
+    border-radius: 0px;
+    text-decoration: none;
+    padding: 14px 21px;
+    font-size: 13px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    -webkit-transition: all .4s ease-in-out;
+       -moz-transition: all .4s ease-in-out;
+        -ms-transition: all .4s ease-in-out;
+         -o-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+}
+
+.btn-big {
+    border-radius: 0px;
+    text-decoration: none;
+    padding: 18px 24px;
+    font-size: 14px;
+    line-height: 40px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    -webkit-transition: all .4s ease-in-out;
+       -moz-transition: all .4s ease-in-out;
+        -ms-transition: all .4s ease-in-out;
+         -o-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+}
+.btn:hover,
+input[type="submit"]:hover{
+    -webkit-transition: all .4s ease-in-out;
+       -moz-transition: all .4s ease-in-out;
+        -ms-transition: all .4s ease-in-out;
+         -o-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+}
+.btn-white{
+    border:solid 2px #fff;
+    background: transparent;
+    color: #fff !important;
+}
+.btn-white:hover{
+    border:solid 2px #fff;
+    background: #fff;
+    color: #1f1f1f !important;
+}
+
+.btn-dark,
+input[type="submit"]{
+    border:solid 1px white;
+    background: white;
+    color: white !important;
+    border-radius: 10px;
+}
+.btn-dark:hover,
+input[type="submit"]:hover,
+.btn-dark.active{
+    border:solid 2px #1f1f1f;
+    background: #1f1f1f !important;
+    color: #fff;
+}
+
+.btn-color{
+    background: transparent;
+}
+.btn-color:hover{
+    color: #fff;
+}
+option
+{
+    color: black !important;
+}
+@media screen and (max-width:767px){
+    .contact-form
+    {
+        left: 0;
+    }
+    .custom-4
+    {
+        margin-top: 1.5rem!important;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px){
+    .contact-form
+    {
+        left: 0;
+    }
+}
+@media (min-width:992px) and (max-width:1024px){
+    .contact-form
+    {
+        left: 10%;
+    }
 }

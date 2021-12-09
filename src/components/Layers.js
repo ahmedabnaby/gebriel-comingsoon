@@ -23,11 +23,11 @@ function Layers() {
         <span className="line" />
       </div>
     </li>
-    <li className="layer" data-depth="0.25">
+    {/* <li className="layer" data-depth="0.25">
       <div className="sphere">
         <img alt="sphere" src="images/sphere.png" />
       </div>
-    </li>
+    </li> */}
     <li className="layer" data-depth="0.30">
       <div className="hero">
         <h1 id="countdown">The most spectacular coming soon template!</h1>
@@ -35,7 +35,7 @@ function Layers() {
       </div>
     </li>
     {/* Flakes */}
-    <li className="layer" data-depth="0.40">
+    {/* <li className="layer" data-depth="0.40">
       <div className="depth-1 flake1">
         <img alt="flake" src="images/flakes/depth1/flakes1.png" />
       </div>
@@ -48,16 +48,16 @@ function Layers() {
       <div className="depth-1 flake4">
         <img alt="flake" src="images/flakes/depth1/flakes4.png" />
       </div>
-    </li>
+    </li> */}
     <li className="layer" data-depth="0.50">
       <div className="depth-2 flake1">
         <img alt="flake" src="images/flakes/depth2/flakes1.png" />
       </div>
-      <div className="depth-2 flake2">
+      {/* <div className="depth-2 flake2">
         <img alt="flake" src="images/flakes/depth2/flakes2.png" />
-      </div>
+      </div> */}
     </li>
-    <li className="layer" data-depth="0.60">
+    {/* <li className="layer" data-depth="0.60">
       <div className="depth-3 flake1">
         <img alt="flake" src="images/flakes/depth3/flakes1.png" />
       </div>
@@ -70,7 +70,7 @@ function Layers() {
       <div className="depth-3 flake4">
         <img alt="flake" src="images/flakes/depth3/flakes4.png" />
       </div>
-    </li>
+    </li> */}
     <li className="layer" data-depth="0.80">
       <div className="depth-4">
         <img alt="flake" src="images/flakes/depth4/flakes.png" />
@@ -86,7 +86,7 @@ function Layers() {
       <div className="contact">
         <a
           className="mail"
-          href="mailto:info@example.com?subject=Hi%20ThemeWagon!"
+          href="mailto:customerservice@gebriel-motors.com"
         >
           customerservice@gebriel-motors.com
         </a>
