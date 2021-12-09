@@ -30,25 +30,25 @@ export default function ContactUs()
                             <div className="controls">
                             <div className="row">
                                 <div className="col-md-6">
-                                <div className="form-group"> <label htmlFor="form_name">Name*</label> <input id="form_name" type="text" name="name" className="form-control" placeholder="Name" data-error="Firstname is required." /> </div>
+                                <div className="form-group"> <label htmlFor="form_name">Name*</label> <input id="form_name" type="text" required="required name="name" className="form-control" placeholder="Name" data-error="Firstname is required." /> </div>
                                 </div>
                                 {/* <div className="col-md-6">
                                 <div className="form-group"> <label htmlFor="form_lastname">Lastname*</label> <input id="form_lastname" type="text" name="surname" className="form-control" placeholder="Lastname" required="required" data-error="Lastname is required." /> </div>
                                 </div> */}
                                 <div className="col-md-6">
-                                <div className="form-group custom-4"> <label htmlFor="form_phone">Phone number*</label> <input id="form_phone" name="phone" className="form-control" placeholder="Phone number" data-error="Please, leave us a phonenumber." /> </div>
+                                <div className="form-group custom-4"> <label htmlFor="form_phone">Phone number*</label> <input id="form_phone" name="phone" className="form-control" placeholder="Phone number" required="required data-error="Please, leave us a phonenumber." /> </div>
                                 </div>
                             </div>
                             <div className="row mt-4">
                                 <div className="col-md-6">
-                                <div className="form-group"> <label htmlFor="form_email">Email*</label> <input id="form_email" type="email" name="email" className="form-control" placeholder="Email" data-error="Valid email is required." /> </div>
+                                <div className="form-group"> <label htmlFor="form_email">Email*</label> <input id="form_email" type="email" name="email" required="required className="form-control" placeholder="Email" data-error="Valid email is required." /> </div>
                                 </div>
                                 <div className="col-md-6">
-                                <div className="form-group custom-4"> <label htmlFor="form_company">Company Name*</label> <input id="form_company" name="company" className="form-control" placeholder="Company name" data-error="Please, leave us a company name." /> </div>
+                                <div className="form-group custom-4"> <label htmlFor="form_company">Company Name*</label> <input id="form_company" required="required name="company" className="form-control" placeholder="Company name" data-error="Please, leave us a company name." required="required /> </div>
                                 </div>
                                 <div className="col-md-12">
                                 <div className="form-group mt-4"> <label htmlFor="form_need">Country*</label> 
-                                    <select id="form_country" name="country" className="form-control" data-error="Please specify your country.">
+                                    <select id="form_country" name="country" className="form-control" required="required" data-error="Please specify your country.">
                                         <option value disabled>--Select Your Country--</option>
                                         <option value="Egypt">Egypt</option>
                                         <option value="United Arab Emirates">United Arab Emirates</option>
