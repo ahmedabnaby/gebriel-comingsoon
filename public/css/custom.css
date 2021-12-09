@@ -147,6 +147,10 @@ option
     {
         margin-top: 1.5rem!important;
     }
+    .title
+    {
+        margin-top: 50px !important;
+    }
 }
 
 @media (min-width:768px) and (max-width:991px){
