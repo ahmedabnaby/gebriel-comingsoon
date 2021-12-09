@@ -44,11 +44,11 @@ export default function ContactUs()
                                 <div className="form-group"> <label htmlFor="form_email">Email*</label> <input id="form_email" type="email" name="email" required className="form-control" placeholder="Email" data-error="Valid email is required." /> </div>
                                 </div>
                                 <div className="col-md-6">
-                                <div className="form-group custom-4"> <label htmlFor="form_company">Company Name*</label> <input id="form_company" required name="company" className="form-control" placeholder="Company name" data-error="Please, leave us a company name." required="required /> </div>
+                                <div className="form-group custom-4"> <label htmlFor="form_company">Company Name*</label> <input id="form_company" required name="company" className="form-control" placeholder="Company name" data-error="Please, leave us a company name." /> </div>
                                 </div>
                                 <div className="col-md-12">
                                 <div className="form-group mt-4"> <label htmlFor="form_need">Country*</label> 
-                                    <select id="form_country" name="country" className="form-control" required data-error="Please specify your country.">
+                                    <select id="form_country" name="country" className="form-control" data-error="Please specify your country.">
                                         <option value disabled>--Select Your Country--</option>
                                         <option value="Egypt">Egypt</option>
                                         <option value="United Arab Emirates">United Arab Emirates</option>
@@ -60,7 +60,7 @@ export default function ContactUs()
                             </div>
                             <div className="row mt-4">
                                 {/* <div className="col-md-12">
-                                <div className="form-group"> <label htmlFor="form_phone">Phone number*</label> <input id="form_phone" name="phone" className="form-control" placeholder="Write your phone here." required="required" data-error="Please, leave us a phonenumber." /> </div>
+                                <div className="form-group"> <label htmlFor="form_phone">Phone number*</label> <input id="form_phone" name="phone" className="form-control" placeholder="Write your phone here." data-error="Please, leave us a phonenumber." /> </div>
                                 </div> */}
                                 <div className="col-md-12 mt-2"> <input type="submit" value="Contact us" className="btn btn-dark btn-big" /> </div>
                             </div>
