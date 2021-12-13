@@ -1,6 +1,8 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
 import popupS from 'popups';
+import CountryList from './CountryList';
+import CountryPhoneNumberList from './CountryPhoneNumberList';
 export default function ContactUs()
 {
    function sendEmail(e) {
@@ -18,7 +20,6 @@ export default function ContactUs()
               console.log(error.text);
           });
       }
-    
         return (
             <div className="contact-form">
                 <div className="row ">
@@ -26,7 +27,7 @@ export default function ContactUs()
                     <div className="card mt-2 mx-auto p-4  trial">
                     <div className="card-body  trial">
                         <div className="container">
-                        <form id="contact-form" role="form" onSubmit={sendEmail}>
+                        <form id="contact-form" onSubmit={sendEmail}>
                             <div className="controls">
                             <div className="row">
                                 <div className="col-md-6">
@@ -36,7 +37,17 @@ export default function ContactUs()
                                 <div className="form-group"> <label htmlFor="form_lastname">Lastname*</label> <input id="form_lastname" type="text" name="surname" className="form-control" placeholder="Lastname" required data-error="Lastname is required." /> </div>
                                 </div> */}
                                 <div className="col-md-6">
-                                <div className="form-group custom-4"> <label htmlFor="form_phone">Phone number*</label> <input id="form_phone" name="phone" className="form-control" placeholder="Phone number" required data-error="Please, leave us a phonenumber." /> </div>
+                                <div className="form-group custom-4"> 
+                                <label htmlFor="form_phone">Phone number*</label> 
+
+                                <div className="input-group">
+                                    <span className="input-group-select"><CountryPhoneNumberList/></span>
+                                    <input id="form_phone" name="phone" className="form-control" placeholder="Phone number" required data-error="Please, leave us a phonenumber." />
+                                </div>
+                                {/* <CountryPhoneNumberList/> */}
+                                    {/* <input id="form_phone" name="phone" className="form-control" placeholder="Phone number" required data-error="Please, leave us a phonenumber." />  */}
+                                
+                                </div>
                                 </div>
                             </div>
                             <div className="row mt-4">
@@ -48,13 +59,14 @@ export default function ContactUs()
                                 </div>
                                 <div className="col-md-12">
                                 <div className="form-group mt-4"> <label htmlFor="form_need">Country*</label> 
-                                    <select id="form_country" name="country" className="form-control" data-error="Please specify your country.">
+                                    {/* <select id="form_country" name="country" className="form-control" data-error="Please specify your country.">
                                         <option value disabled>--Select Your Country--</option>
                                         <option value="Egypt">Egypt</option>
                                         <option value="United Arab Emirates">United Arab Emirates</option>
                                         <option value="Saudi Arabia">Saudi Arabia</option>
                                         <option value="Other">Other</option>
-                                    </select> 
+                                    </select>  */}
+                                    <CountryList/>
                                 </div>
                                 </div>
                             </div>
